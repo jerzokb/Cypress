@@ -1,0 +1,15 @@
+{
+  "baseUrl": "https://autodemo.testoneo.com/en/",
+  "ignoreTestFiles": "**/examples/*",
+  "viewportHeight": 768,
+  "viewportWidth": 1024,
+  "video": false,
+  "retries": {
+    "runMode": 2,
+    "openMode": 1
+  },
+  "reporter": "cypress-multi-reporters",
+  "reporterOptions": {
+    "configFile": "reporter-config.json"
+  }
+}
